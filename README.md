@@ -14,13 +14,13 @@ $ cd ./tensorflow-intro.git
 Then create a virtual environment and setup your environment:
 
 ```bash
-$ python -m virtualenv --no-site-packages --distribute env
+$ python3 -m virtualenv --no-site-packages --distribute env36
 $ source env/bin/activate
-(env) $ pip install -U git+https://github.com/MonashDataFluency/intro-to-tensorflow.git
-(env) $ pip install jupyter
+(env36) $ pip3 install -U git+https://github.com/MonashDataFluency/intro-to-tensorflow.git
+(env36) $ pip3 install jupyter
 ```
 
-This installs the Monash DataFluency `TutorialSupport` package and dependencies, including `TensorFlow` and some sample datasets for machine learning.
+This installs the Monash DataFluency `TutorialSupport` package and dependencies, including `TensorFlow` and some sample datasets for machine learning. Note that the `TutorialSupport` package resets the random seed each time a session is created, to ensure results are reproducible, and limits the number of threads to 2. The `TutorialSupport` package requires python3 (tested using python3.6 on OS X).
 
 To start the Jupyter notebook server:
 
