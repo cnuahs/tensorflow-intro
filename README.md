@@ -31,9 +31,7 @@ which should launch your browser, displaying the Jupyter dashboard and the conte
 
 ---
 
-Alternatively, you can probably open the notebook on [Google's Colaboratory](https://colab.research.google.com/ "Google Colab") by clicking this button:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cnuahs/tensorflow-intro/blob/master/ML_Coursework_Student.ipynb).
+Alternatively, you can probably open the notebook on [Google's Colaboratory](https://colab.research.google.com/ "Google Colab") by clicking this button: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cnuahs/tensorflow-intro/blob/master/ML_Coursework_Student.ipynb).
 
 To run on Colab you need to install the `TutorialSupport` package from within the notebook by adding and executing a code cell containing something like:
 
