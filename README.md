@@ -31,5 +31,6 @@ which should launch your browser, displaying the Jupyter dashboard and the conte
 
 ---
 
-Alternatively, you can probably open the notebook on Google's [Colaboratory](https://colab.research.google.com/ "Google Colaboratory"] by clicking the button below:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](../master/ML_Coursework_Student.ipynb)
+Alternatively, you can probably open the notebook on Google's [Colaboratory](https://colab.research.google.com/ "Google Colaboratory"] by clicking this button:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cnuahs/tensorflow-intro/blob/master/ML_Coursework_Student.ipynb)
